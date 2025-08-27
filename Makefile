@@ -27,9 +27,9 @@ _check_executables := $(foreach exec,${executables},$(if $(shell command -v ${ex
 ${HELP}:
 	# inspired by the makefiles of the Linux kernel and Mercurial
 >	@printf '%s\n' 'Common make targets:'
->	@printf '%s\n' '  ${SETUP}                - installs the distro-independent dependencies for this'
+>	@printf '%s\n' '  ${SETUP}                - install the distro-independent dependencies for this'
 >	@printf '%s\n' '                         project'
->	@printf '%s\n' '  ${CLEAN}                - removes files generated from targets'
+>	@printf '%s\n' '  ${CLEAN}                - remove files generated from targets'
 
 .PHONY: ${SETUP}
 ${SETUP}:
