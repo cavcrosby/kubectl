@@ -34,5 +34,4 @@ jobs:
         with:
           file_pattern: deb/
           branch: gh-pages
-          create_branch: true
           push_options: --force
