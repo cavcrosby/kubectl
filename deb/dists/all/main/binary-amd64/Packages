@@ -1,0 +1,153 @@
+Package: kubectl
+Section: -
+Installed-Size: 173010
+Maintainer: Azure Container Upstream
+Architecture: amd64
+Version: 1.32.9-ubuntu24.04u3
+Depends: libc6 (>= 2.34), libssl3
+Conflicts: kubernetes, kubernetes-client
+Filename: pool/main/k/kubectl/kubectl_1.32.9-ubuntu24.04u3_amd64.deb
+Size: 34115160
+MD5sum: 89cbe39fbddda312e78aedafea0f4a64
+SHA1: 43133a5d54edafec7c39ef0cc0ff5180481d7490
+SHA256: 5b55adfbc0e6624b683587e3e69503bfb366bd8ab4064907a5608d4651d869ac
+SHA512: 2f4d4846591c8c49dcc3e455d531bddbe58be30dd77a9d04a1091db526574fb98f2b37c1de26f0bdce738ca4a004b602bf7415db37954bf2ca53380b79b9f29d
+Description: Command-line utility for interacting with a Kubernetes cluster
+Homepage: https://github.com/kubernetes/kubernetes
+
+Package: kubectl
+Section: -
+Installed-Size: 171261
+Maintainer: Azure Container Upstream
+Architecture: amd64
+Version: 1.31.13-ubuntu24.04u3
+Depends: libc6 (>= 2.34), libssl3
+Conflicts: kubernetes, kubernetes-client
+Filename: pool/main/k/kubectl/kubectl_1.31.13-ubuntu24.04u3_amd64.deb
+Size: 34018022
+MD5sum: e5365bb13d469c7136c343048dc40124
+SHA1: 439c4b9c043c0923ce7874dd338c070b0c07e802
+SHA256: cf0c6b6cf8b1693590332e410b276ed38e3542d5504d87a5f2ffaebeb0a2e208
+SHA512: f18b70f95216f6b8f269bdc2ee061c1b52b919b613982ef2abc7f86466e8bd5df65937c79886fa5680a93e9e5555e3a7776269f017eed686e3dbec5cc05d309e
+Description: Command-line utility for interacting with a Kubernetes cluster
+Homepage: https://github.com/kubernetes/kubernetes
+
+Package: kubectl
+Section: -
+Installed-Size: 155077
+Maintainer: Azure Container Upstream
+Architecture: amd64
+Version: 1.30.100-ubuntu24.04u2
+Depends: libc6 (>= 2.34), libssl3
+Conflicts: kubernetes, kubernetes-client
+Filename: pool/main/k/kubectl/kubectl_1.30.100-ubuntu24.04u2_amd64.deb
+Size: 32255456
+MD5sum: b28bf420084e65d94fa3f3e0829a321b
+SHA1: 4d34b5a805076885a79968f9276d95993ae026b7
+SHA256: a6faf74c1431fc7b95f193bb8cd599ba5ad8f160ecec3b429e69cac338a0d60e
+SHA512: 6c9955035036ce0b498393e6a37d9622448dd960ab1d5f144e6483f87ddcead3b8b6ec5c0da616666d7ab5bc39d7542d8da6a55a71dcc96d41d7d34476feb74f
+Description: Command-line utility for interacting with a Kubernetes cluster
+Homepage: https://github.com/aks-lts/kubernetes
+
+Package: kubectl
+Section: -
+Installed-Size: 151513
+Maintainer: Azure Container Upstream
+Architecture: amd64
+Version: 1.29.100-ubuntu24.04u2
+Depends: libc6 (>= 2.34), libssl3
+Conflicts: kubernetes, kubernetes-client
+Filename: pool/main/k/kubectl/kubectl_1.29.100-ubuntu24.04u2_amd64.deb
+Size: 31738942
+MD5sum: e1e0ed933e50f17015f15168cb3772fb
+SHA1: 8d982ca075a51b07e9e4f7c109d2f8d59c2b220c
+SHA256: 4f3ab6591d7a53b9471fbc9760a4479c543163c9e63dde8a2979eca3350c2d76
+SHA512: 69b1f147695337309c4e43bee619898b591fbb0dd9a44401fb38b6f4341e6033a3cb2dc11a507ef25af62efa29438f5fa6778de16f743fd84372b83504560fe4
+Description: Command-line utility for interacting with a Kubernetes cluster
+Homepage: https://github.com/aks-lts/kubernetes
+
+Package: kubectl
+Section: -
+Installed-Size: 150693
+Maintainer: Azure Container Upstream
+Architecture: amd64
+Version: 1.28.101-ubuntu24.04u5
+Depends: libc6 (>= 2.34), libssl3
+Conflicts: kubernetes, kubernetes-client
+Filename: pool/main/k/kubectl/kubectl_1.28.101-ubuntu24.04u5_amd64.deb
+Size: 31524492
+MD5sum: 7da90eadf600b075a310f54872b85329
+SHA1: 17d76eeb6eb38f4b30a31657035817d090ce484d
+SHA256: 12375a4de81be69315f268f979d53e914f10b9f6e9b1288ad4be0f3b52db27f0
+SHA512: e5c3a7fabd14e074d6f3f7ff4ce14abb9ef47adabda550c4228c0c82ffde88d91da436a23e6ff9e7a9b4c7559d7cb33bff520aedfb4db1585d4e11c3c87ab64e
+Description: Command-line utility for interacting with a Kubernetes cluster
+Homepage: https://github.com/aks-lts/kubernetes
+
+Package: kubectl
+Section: -
+Installed-Size: 147722
+Maintainer: Azure Container Upstream
+Architecture: amd64
+Version: 1.27.103-ubuntu24.04u3
+Depends: libc6 (>= 2.34), libssl3
+Conflicts: kubernetes, kubernetes-client
+Filename: pool/main/k/kubectl/kubectl_1.27.103-ubuntu24.04u3_amd64.deb
+Size: 30814846
+MD5sum: 1912caba36f37cef163efe3d20463506
+SHA1: a87db6f3865b0c9b1c52eb6d45555af444bca28e
+SHA256: 31266968ce2024ae67e806b6d45332c0f0a059d8f9d0782b9d514a32e5e0b0b3
+SHA512: b5f5bf34a21b6d36cb8edcc6635a302a19084a9fcb5f6cdff325a77182188a7a092ff9b1130ec260776f0e3f437b10e0fd1fbb8979ba49614354cccc458c397b
+Description: Command-line utility for interacting with a Kubernetes cluster
+Homepage: https://github.com/aks-lts/kubernetes
+
+Package: kubectl
+Priority: optional
+Section: admin
+Installed-Size: 47063
+Maintainer: Kubernetes Authors <dev@kubernetes.io>
+Architecture: amd64
+Version: 1.26.15-1.1
+Filename: pool/main/k/kubectl/kubectl_1.26.15-1.1_amd64.deb
+Size: 10152480
+MD5sum: 84d1f54b0470bf53a08acdc9b454090c
+SHA1: 7e43f078091b9170c8811c28d1b7d6d5ba3ede9e
+SHA256: 19e619106d586e05167e82725b813b0e90dbfdac959bf1308a72d63383c4d0b8
+SHA512: 8ba1cf3a10cd63c648ad5530e1403c53fed65c84d94beb7d064315afdc9918576088e313ee6adc1b598f479176b883281ffaf771f13ce8eaa00c1a80169977c8
+Description: Command-line utility for interacting with a Kubernetes cluster
+ Command-line utility for interacting with a Kubernetes cluster.
+Homepage: https://kubernetes.io
+
+Package: kubectl
+Priority: optional
+Section: admin
+Installed-Size: 44631
+Maintainer: Kubernetes Authors <dev@kubernetes.io>
+Architecture: amd64
+Version: 1.25.16-1.1
+Filename: pool/main/k/kubectl/kubectl_1.25.16-1.1_amd64.deb
+Size: 9616884
+MD5sum: e2392c3b34278a3248ac0fe25337530b
+SHA1: 388fb2de746d1e47b16c33984b31cd9b95024d15
+SHA256: 796a299933039c48136d5bef62584a55d109024a326c89076635cf174dcf4db8
+SHA512: 350a5adbbe69ff869972a146c39035cd39ffbeabbb4a31c193a077f88934d820b43bd4e0675dc7a9081c0deb097bdcbfaabfea3ee08c3cfe8ce850bd92913a0a
+Description: Command-line utility for interacting with a Kubernetes cluster
+ Command-line utility for interacting with a Kubernetes cluster.
+Homepage: https://kubernetes.io
+
+Package: kubectl
+Priority: optional
+Section: admin
+Installed-Size: 45655
+Maintainer: Kubernetes Authors <dev@kubernetes.io>
+Architecture: amd64
+Version: 1.24.17-1.1
+Filename: pool/main/k/kubectl/kubectl_1.24.17-1.1_amd64.deb
+Size: 9542572
+MD5sum: e535e97855fe15b4ff2166639808d15d
+SHA1: 534c6998881b748654c9a75a518207a69b0b58c5
+SHA256: 6ba42ca9c193c26d6d66ef5b879d1cecb9dc50521faaa54c02db8db97f819a94
+SHA512: cd029850a43c8fcf746dc45aa10d32bd93e337ccbbe6cf8c61cf037ad5045d0f98cbe2f9a9df40657a9179f8f38a070f0e5f3d0fda9d9fb3a4ef8cc444c44615
+Description: Command-line utility for interacting with a Kubernetes cluster
+ Command-line utility for interacting with a Kubernetes cluster.
+Homepage: https://kubernetes.io
+
