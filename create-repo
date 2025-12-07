@@ -58,6 +58,16 @@ sudo install \
     "./sources.list.d/kubectl-1.32.sources" \
     "/etc/apt/sources.list.d"
 
+sudo install \
+    --mode 644 \
+    "./sources.list.d/kubectl-1.33.sources" \
+    "/etc/apt/sources.list.d"
+
+sudo install \
+    --mode 644 \
+    "./sources.list.d/kubectl-1.34.sources" \
+    "/etc/apt/sources.list.d"
+
 sudo apt-get update
 sudo apt-get download \
     "kubectl=1.24*" \
@@ -68,7 +78,9 @@ sudo apt-get download \
     "kubectl=1.29*" \
     "kubectl=1.30*" \
     "kubectl=1.31*" \
-    "kubectl=1.32*"
+    "kubectl=1.32*" \
+    "kubectl=1.33*" \
+    "kubectl=1.34*"
 
 if ! aptly repo show -config "./.aptly.conf" "kubectl" > /dev/null 2>&1; then
     aptly repo create -config "./.aptly.conf" -distribution="all" "kubectl"
