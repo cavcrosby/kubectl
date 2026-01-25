@@ -105,7 +105,7 @@ Packaging for the `kubectl` Kubernetes client
     -----END PGP PUBLIC KEY BLOCK-----
    ```
 
-3. Update the `apt` package index, then install `kubectl`.
+3. Update the `apt` package index, then install the `kubectl` package.
 
    ```shell
    sudo apt-get update
