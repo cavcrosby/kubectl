@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Creates a custom kubectl apt repository.
+# Creates a custom kubectl APT repository.
 
 set -eo pipefail
 

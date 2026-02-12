@@ -8,15 +8,15 @@ Packaging for the `kubectl` Kubernetes client
 ### Debian-like distributions
 
 1. Update the `apt` package index and install packages needed to use the
-   `kubectl` `apt` repository. The following steps assume that your `apt`
-   package version is `2.3.10` or greater.
+   `kubectl` APT repository. The following steps assume that your `apt` package
+   version is `2.3.10` or greater.
 
    ```shell
    sudo apt-get update
    sudo apt-get install --assume-yes "ca-certificates"
    ```
 
-2. Install the `sources.list(5)` file for the `kubectl` `apt` repository.
+2. Install the `sources.list(5)` file for the `kubectl` APT repository.
 
    ```shell
    cat << _EOF_ | sudo tee "/etc/apt/sources.list.d/kubectl.sources"
