@@ -9,7 +9,7 @@ PROGNAME="$(basename "$0")"
 readonly PROGNAME
 
 if ! [ "$(command -v aptly)" ]; then
-    printf '%s: %s\n' "${PROGNAME}" "aptly cannot be found in the PATH!" >&2
+    printf "%s: %s\n" "${PROGNAME}" "aptly cannot be found in the PATH!" >&2
     exit 1
 fi
 
