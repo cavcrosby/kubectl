@@ -14,10 +14,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
       - name: Import GPG key
-        uses: crazy-max/ghaction-import-gpg@v6
+        uses: crazy-max/ghaction-import-gpg@v7
         with:
           gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
@@ -30,7 +30,7 @@ jobs:
       - name: Create the kubectl APT repository
         run: ./create-repo
 
-      - uses: stefanzweifel/git-auto-commit-action@v6
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           file_pattern: deb/
           branch: gh-pages
